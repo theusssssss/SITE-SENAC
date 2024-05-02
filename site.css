@@ -1,0 +1,244 @@
+.sobre{
+    background-color:dodgerblue ;
+}
+.h{
+    color: blue;
+    white-space: nowrap;
+}
+.img1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+} 
+
+img2, p1{
+    display:inline-flex;
+    float: inline-end;
+    
+}
+.img2{
+    float: right;
+}
+
+
+.rt{
+    font-size: 2%;
+}
+h6{
+    font-size: 25px;
+}
+
+.cursos{
+    background-color:cornflowerblue;
+}
+.ad{
+    font-size: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+header{
+    background-color: rgb(121, 121, 121);
+    width: 100%;
+    padding: 10px;
+}
+
+.logo, .sociais{
+    width: 25%;
+
+}
+.menu{
+    width: 50%;
+}
+
+.menu nav a{
+    color: white;
+    text-decoration: none;
+    padding-right: 70px;
+    font-size: 18px;
+    position: relative;
+    
+}
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #FF2500, #FF7100);
+    position: absolute;
+    top: 20px;
+    left: 0;
+transition: width 0.5s;
+}
+.menu nav a:hover::after{
+    width: 30px;
+
+}
+.sociais button{
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(45deg, #FF2500, #FF7100);
+    border: none;
+    border-radius: 8px
+ pointer; 
+    margin-right: 10px;
+}
+.sociais button i{
+    font-size: 20px;
+    color: white;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root{
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+
+}
+*{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+
+}
+
+footer{
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+.footer-link{
+    text-decoration: none;
+}
+
+.footer_content{
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts n1{
+    margin-bottom: 0.75rem;
+
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+#footer_social_media .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+#footer_social_media .footer-link i{
+    font-size: 1.25rem;
+}
+#footer_social_media .footer-link:hover{
+    opacity: 0.8;
+
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook{
+    background: #4267b3;
+}
+#whatsapp{
+    background: #25d336;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+.footer-list .footer-link{
+    color: var(--color-neutral-30);
+}
+.footer-list .footer-link:hover{
+    color: #7f37c9;
+    transition: all 0.4s;
+
+}
+
+#footer_subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+#footer_subscribe p{
+    color: var(--color-neutral-30);
+}
+
+#input_group{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+
+}
+#input_group input{
+    all: unset;
+    padding: 0.7rem;
+    width: 100%;
+}
+#input_group button{
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+#input_group button:hover{
+    opacity: 0.8;
+}
+
+#footer-copyright{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
